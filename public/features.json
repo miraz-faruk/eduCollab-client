@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "icon": "https://i.ibb.co.com/grMW6Lt/arisa-chattasa-0-La-BRkm-H4f-M-unsplash.jpg",
+        "title": "Create Assignments",
+        "description": "Easily create assignments and share them with your friends."
+    },
+    {
+        "id": 2,
+        "icon": "https://i.ibb.co.com/4JdPrSf/twinkl-qql-FMNINw-I-unsplash.jpg",
+        "title": "Complete Tasks",
+        "description": "Work on assignments collaboratively and submit them on time."
+    },
+    {
+        "id": 3,
+        "icon": "https://i.ibb.co.com/FBvLR4p/anastassia-anufrieva-JUlfa5f-AIg-unsplash.jpg",
+        "title": "Grade Assignments",
+        "description": "Review and grade your friends’ assignments with detailed feedback."
+    },
+    {
+        "id": 4,
+        "icon": "https://i.ibb.co.com/f8MV744/mimi-thian-vd-XMSi-X-n6-M-unsplash.jpg",
+        "title": "Discussion Forums",
+        "description": "Engage in discussions and get help with assignments."
+    },
+    {
+        "id": 5,
+        "icon": "https://i.ibb.co.com/hdRYSzR/jeshoots-com-9q-QTUYm4ss4-unsplash.jpg",
+        "title": "Real-Time Collaboration",
+        "description": "Allow users to work on assignments together in real-time, with live updates and chat support."
+    },
+    {
+        "id": 6,
+        "icon": "https://i.ibb.co.com/d4d6Lt5/isaac-smith-6-En-TPv-PPL6-I-unsplash.jpg",
+        "title": "Assignment Analytics",
+        "description": "Provide analytics to show how users are performing on assignments, comparing their grades over time."
+    }
+]
