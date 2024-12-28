@@ -28,7 +28,7 @@ const Register = () => {
             })
     }
     return (
-        <div className="my-20 bg-base-200">
+        <div className="my-16 bg-base-200">
             <div className="py-5 max-h-screen px-24">
                 <div className="flex flex-col lg:flex-row items-center">
                     <div className="text-center lg:text-left">
