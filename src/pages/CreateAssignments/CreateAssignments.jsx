@@ -5,6 +5,7 @@ import "react-datepicker/dist/react-datepicker.css";
 const CreateAssignments = () => {
 
     const [startDate, setStartDate] = useState(new Date());
+
     const handleFormSubmit = event => {
         event.preventDefault();
         const form = event.target;
@@ -14,7 +15,34 @@ const CreateAssignments = () => {
         const marks = form.marks.value;
         const difficulty = form.difficulty.value;
         const dueDate = form.dueDate.value;
-        console.log(name, description, image, marks, difficulty, dueDate);
+        const assignment = {
+            assignmentName: name,
+            description: description,
+            image: image,
+            marks: marks,
+            difficultyLevel: difficulty,
+            dueDate: dueDate
+        };
+        console.log(assignment);
+
+        fetch("http://localhost:3000/assignments", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(assignment)
+        })
+        .then(res => res.json())
+        .then(data => {
+            console.log(data);
+            if(data.insertedId){
+                alert("Assignment submitted successfully!");
+            }
+        });
+
+        // Clear form inputs
+        // form.reset();
+        setStartDate(new Date()); // Reset the date picker
     }
 
     return (

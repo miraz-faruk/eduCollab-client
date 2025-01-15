@@ -5,6 +5,7 @@ import Login from "../pages/Login/Login";
 import Register from "../pages/Register/Register";
 import PrivateRoutes from "./PrivateRoutes";
 import CreateAssignments from "../pages/CreateAssignments/CreateAssignments";
+import Assignments from "../pages/Assignments/Assignments";
 
 const Routes = createBrowserRouter([
     {
@@ -26,6 +27,10 @@ const Routes = createBrowserRouter([
             {
                 path: "/create-assignments",
                 element: <PrivateRoutes><CreateAssignments></CreateAssignments></PrivateRoutes>
+            },
+            {
+                path: "/assignments",
+                element: <Assignments></Assignments>
             }
         ]
     },
